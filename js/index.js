@@ -59,13 +59,13 @@ function handleSelection() {
     for (let i = 0; i < buttonsNodeList.length; i++) {
         if (buttonsNodeList[i].hasAttribute("id")) {
             if (i == 0) {
-                content.innerHTML = content.innerHTML = `<h1>${resource_object.Solar.headingContent}</h1><img src="${resource_object.Solar.imgUrl}" alt="${resource_object.Solar.imgAlt}"><p>${resource_object.Solar.bodyText}</p>`;
+                content.innerHTML = `<h1>${resource_object.Solar.headingContent}</h1><img src="${resource_object.Solar.imgUrl}" alt="${resource_object.Solar.imgAlt}"><p>${resource_object.Solar.bodyText}</p>`;
             }
             if (i == 1) {
-                content.innerHTML = content.innerHTML = `<h1>${resource_object.Wind.headingContent}</h1><img src="${resource_object.Wind.imgUrl}" alt="${resource_object.Wind.imgAlt}"><p>${resource_object.Wind.bodyText}</p>`;
+                content.innerHTML = `<h1>${resource_object.Wind.headingContent}</h1><img src="${resource_object.Wind.imgUrl}" alt="${resource_object.Wind.imgAlt}"><p>${resource_object.Wind.bodyText}</p>`;
             }
             if (i == 2) {
-                content.innerHTML = content.innerHTML = `<h1>${resource_object.Hydro.headingContent}</h1><img src="${resource_object.Hydro.imgUrl}" alt="${resource_object.Hydro.imgAlt}"><p>${resource_object.Hydro.bodyText}</p>`;
+                content.innerHTML = `<h1>${resource_object.Hydro.headingContent}</h1><img src="${resource_object.Hydro.imgUrl}" alt="${resource_object.Hydro.imgAlt}"><p>${resource_object.Hydro.bodyText}</p>`;
             }
         } //if-hasAttribute
     } //for-loop
