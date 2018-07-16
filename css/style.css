@@ -1,0 +1,136 @@
+/*
+-Colors-
+#00B6F5
+#00DEC2
+
+*/
+@import url('https://fonts.googleapis.com/css?family=Cardo|Josefin+Sans');
+
+* {
+    font-family: 'Josefin Sans', sans-serif;
+/*  font-size: .75rem;*/ /*this breaks the design*/
+    line-height: 1.4;
+}
+
+.wrapper {
+    margin: 0 auto;
+    min-width: 28rem;
+}
+
+.masthead {
+    height: 150px;
+    background-color: #00B6F5;
+    background-image: url("../img/energy.jpg");
+    background-size: cover;
+    background-position: center;
+    text-align: right;
+    padding-top: 35px;
+    padding-right: 10px;
+}
+
+.masthead h1 {
+    font-family: 'Cardo', serif;
+    color: #fff;
+    font-size: 2.5rem;
+    text-shadow: 0px 0px 4px #fff;
+}
+
+nav ul {
+    padding-left: 0;
+}
+
+nav ul li{
+    list-style: none;
+    margin: 5px 0px;
+}
+
+.navigation a {
+    text-decoration: none;
+    background-color: #00B6F5;
+    color: #fff;
+    padding: 10px;
+    display: block;
+    border-radius: 20px;
+}
+
+.buttons {
+    text-align: center;
+}
+
+button {
+    margin: 0.5rem;
+    padding: 1rem;
+    border-radius: 90px;
+    background-color: #00DEC2;
+    color: #fff;
+}
+
+#active-button {
+    background-color: #00B6F5;
+}
+
+h1 {
+    color: #00B6F5;
+    font-family: 'Cardo', serif;
+}
+
+#content img {
+    width: 100%;
+}
+
+.social-links {
+    text-align: center;
+}
+
+.social-links img {
+    width: 40px;
+    margin: 40px;
+}
+
+footer {
+    text-align: center;
+}
+
+/*media queries*/
+
+@media only screen and (min-width: 30rem){
+    .wrapper {
+        max-width: 60rem;
+    }
+    
+    *{
+        font-size: 1rem;
+        line-height: 1.6;
+    }
+    
+    .navigation a {
+        display: inline;
+        padding: 17px 3%;
+        border-radius: 30px;
+    }
+    
+    nav {
+        padding:15px 0px;
+    }
+    
+    nav ul li {
+        display: inline;
+        margin: 4%;
+    }
+    
+    nav ul {
+        text-align: center;
+    }
+    
+    #content img {
+        float: left;
+        width: 25%;
+        max-width: 270px;
+        max-height: 170px;
+        margin-right: 10px;
+    }
+    
+    .social-links {
+        clear: both;
+    }
+}
