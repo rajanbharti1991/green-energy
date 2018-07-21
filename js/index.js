@@ -32,7 +32,7 @@ let resource_object = {
     },
     Hydro: {
         headingContent: "Hydro Electricity",
-        bodyText: "The cost of hydroelectricity is relatively low, making it a competitive source of renewable electricity. The hydro station consumes no water, unlike coal or gas plants. The average cost of electricity from a hydro station larger than 10 megawatts is 3 to 5 U.S. cents per kilowatt-hour.[2] With a dam and reservoir it is also a flexible source of electricity since the amount produced by the station can be changed up or down very quickly to adapt to changing energy demands. Once a hydroelectric complex is constructed, the project produces no direct waste, and in many cases, has a considerably lower output level of greenhouse gases than fossil fuel powered energy plants.",
+        bodyText: "The cost of hydroelectricity is relatively low, making it a competitive source of renewable electricity. The hydro station consumes no water, unlike coal or gas plants. The average cost of electricity from a hydro station larger than 10 megawatts is 3 to 5 U.S. cents per kilowatt-hour. With a dam and reservoir it is also a flexible source of electricity since the amount produced by the station can be changed up or down very quickly to adapt to changing energy demands. Once a hydroelectric complex is constructed, the project produces no direct waste, and in many cases, has a considerably lower output level of greenhouse gases than fossil fuel powered energy plants.",
         imgUrl: "./img/hydro.jpg",
         imgAlt: "Water Dam"
     }
