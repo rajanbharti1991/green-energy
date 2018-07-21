@@ -15,9 +15,9 @@ function preloader() {
 };
 window.addEventListener("load", preloader);
 
-var buttonsNodeList = document.querySelectorAll("button");
+let buttonsNodeList = document.querySelectorAll("button");
 
-var resource_object = {
+let resource_object = {
     Solar: {
         headingContent: "Solar Energy",
         bodyText: "In 2011, the International Energy Agency said that the development of affordable, inexhaustible and clean solar energy technologies will have huge longer-term benefits. It will increase countries energy security through reliance on an indigenous, inexhaustible and mostly import-independent resource, enhance sustainability, reduce pollution, lower the costs of mitigating global warming, and keep fossil fuel prices lower than otherwise. These advantages are global. Hence the additional costs of the incentives for early deployment should be considered learning investments; they must be wisely spent and need to be widely shared",
@@ -38,7 +38,7 @@ var resource_object = {
     }
 };
 
-var content = document.getElementById("content");
+let content = document.getElementById("content");
 
 buttonsNodeList[0].setAttribute("id", "active-button");
 
